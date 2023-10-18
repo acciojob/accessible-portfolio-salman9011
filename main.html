@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#">Home</a></li>
+            <li role="listitem"><a href="#">About</a></li>
+            <li role="listitem"><a href="#">Portfolio</a></li>
+            <li role="listitem"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 role="heading">Portfolio</h1>
+
+    <img src="example.jpg" alt="Portfolio Image" role="img">
+
+    <p>Here is a brief description of my work.</p>
+
+    <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+    </ul>
 
 </body>
-
 </html>
